@@ -4,16 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>포트폴리오</title>
+    <style>
+        body{
+            background-color: rgb(255, 250, 243);
+        }
+        h1{
+            color: chocolate;
+            background-color: rgb(255, 241, 224);
+            border-bottom: 2px solid rgb(109, 104, 30);
+            width: 500px;
+            text-align: center;
+            
+        }
+        h2{
+            color: rgb(99, 76, 27);
+            font-style: italic;
+        }
+        a{
+            color: burlywood;
+        }
+        p{
+            color: rgb(207, 183, 72);
+        }
+        nav ul {
+            list-style: none; padding: 0; margin: 0;
+        }
+        nav li {
+            position: relative; display: inline-block; padding: 10px 15px; cursor:pointer
+        }
+        nav li ul { display:none; position:absolute; top:100%; left:0; padding:0; }
+        nav li:hover > ul { display:block; }
+        nav li ul li { display:block; padding:10px; }
+        nav { 
+            border-right: 1px solid rgb(109, 104, 30); 
+            width:260px;
+            margin: 0;
+;
+            } 
+    </style>
 </head>
 <body>
-    <h1>&#127838;이주희의 portfolio</h1>
+    
+    <h1>&#127838;이주희의 portfolio👩‍🍳</h1>
+    <nav>
+        <ul>
+            <li>
+                <h2>🍪 Toy project 🍪</h2>
+                <ul>
+                    <li><a href="brand/index.html" target="_blank"> 1. 브랜드홍보페이지 - 나이키 에어맥스 </a></li>
+                    <li><p>HTML,CSS transition,animation,fontawesome,goolglefont</p></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
 
-    <h2>&#127880;Toy project</h2>
-
-    <div>
-        <a href="orders/orders.html" target="_blank"> 1. 주문서 </a>
-        <p>HTML,CSS</p>
-    </div>
  
 </body>
 </html>
+
+
